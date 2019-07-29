@@ -1,0 +1,44 @@
+#slideWrap {
+    background: #EDEAD7;
+    width: 680px;
+    height: 278px;
+    padding: 9px 10px 9px 10px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 4px #cccccc;
+    margin-left: 7px;
+    position: relative;
+}
+#imgSlide img {
+    outline: 1px solid #6C9D03;
+    display: block;
+    margin: 0 auto;
+    width: 680px;
+    height: 278px;
+    position: absolute;
+    z-index: 500;
+}
+
+#butNavSlide {
+    position: relative;
+    top: 240px;
+    left: 38px;
+    z-index: 1000;
+}
+#butNavSlide li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    margin: 0 1px;
+    box-shadow: none;
+    background-image:url("../images/butSl.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#butNavSlide #thisButHead {
+    background-image:url("../images/butActivSl.png");
+}
+#butNavSlide .thisButHead {
+    background-image:url("../images/butActivSl.png");
+}
